@@ -4,77 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Happy</title> 
-    <link rel="stylesheet" href="index.css" />
+    <title>Brezgo|Caritas</title>
+    <link rel="stylesheet" href="Style.css" />
   </head>
   <body>
     <style>
-      body {
-        margin: 0;
-        width: 1200px;
-        max-width: 100%;
-        text-align: center;
-        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-      }
-
-      .emoji {
-        width: 120px;
-        height: 120px;
-        margin: 15px 15px 40px;
-        background: #ffda6a;
-        display: inline-block;
-        border-radius: 50%;
-        position: relative;
-      }
-      .emoji:after {
-        position: absolute;
-        bottom: -40px;
-        font-size: 18px;
-        width: 60px;
-        left: calc(50% - 30px);
-        color: #8a8a8a;
-      }
-
-      .emoji__face,
-      .emoji__eyebrows,
-      .emoji__eyes,
-      .emoji__mouth,
-      .emoji__tongue,
-      .emoji__heart,
-      .emoji__hand,
-      .emoji__thumb {
-        position: absolute;
-      }
-      .emoji__face:before,
-      .emoji__face:after,
-      .emoji__eyebrows:before,
-      .emoji__eyebrows:after,
-      .emoji__eyes:before,
-      .emoji__eyes:after,
-      .emoji__mouth:before,
-      .emoji__mouth:after,
-      .emoji__tongue:before,
-      .emoji__tongue:after,
-      .emoji__heart:before,
-      .emoji__heart:after,
-      .emoji__hand:before,
-      .emoji__hand:after,
-      .emoji__thumb:before,
-      .emoji__thumb:after {
-        position: absolute;
-        content: "";
-      }
-
-      .emoji__face {
-        width: inherit;
-        height: inherit;
-      }
-
       button,
       input[type="submit"],
       input[type="reset"] {
@@ -87,24 +21,53 @@
         outline: inherit;
       }
     </style>
-    <button>
-      <div class="emoji  emoji--yay">
-        <div class="emoji__face">
-          <div class="emoji__eyebrows"></div>
-          <div class="emoji__mouth"></div>
+
+    <div class="emoji  emoji--haha">
+      <div class="emoji__face">
+        <div class="emoji__eyes"></div>
+        <div class="emoji__mouth">
+          <div class="emoji__tongue"></div>
         </div>
       </div>
-    </button>
-    <div>
-      <span id="count">0</span>
     </div>
-    <script>
+    <div class="emoji  emoji--yay">
+      <div class="emoji__face">
+        <div class="emoji__eyebrows"></div>
+        <div class="emoji__mouth"></div>
+      </div>
+    </div>
+    <div class="emoji  emoji--wow">
+      <div class="emoji__face">
+        <div class="emoji__eyebrows"></div>
+        <div class="emoji__eyes"></div>
+        <div class="emoji__mouth"></div>
+      </div>
+    </div>
+    <div class="emoji  emoji--sad">
+      <div class="emoji__face">
+        <div class="emoji__eyebrows"></div>
+        <div class="emoji__eyes"></div>
+        <div class="emoji__mouth"></div>
+      </div>
+    </div>
+    <div class="emoji  emoji--angry">
+      <div class="emoji__face">
+        <div class="emoji__eyebrows"></div>
+        <div class="emoji__eyes"></div>
+        <div class="emoji__mouth"></div>
+      </div>
+    </div>
+    <!--<div>
+      <span id="count">0</span>
+    </div>-->
+
+    <!--<div><script>
       $button = document.querySelector("button");
       $span = document.querySelector("span");
       function increment() {
         $span.innerHTML++;
       }
       $button.addEventListener("click", increment);
-    </script>
+    </script>-->
   </body>
 </html>
