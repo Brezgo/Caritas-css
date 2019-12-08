@@ -65,7 +65,7 @@ body {
 }
 
 .emoji--haha:after {
-  content: "Haha";
+  content: "laugh";
 }
 .emoji--haha .emoji__face {
   -webkit-animation: haha-face 2s linear infinite;
@@ -115,7 +115,7 @@ body {
 }
 
 .emoji--yay:after {
-  content: "Yay";
+  content: "Happy";
   -webkit-animation: yay-reverse 1s linear infinite;
   animation: yay-reverse 1s linear infinite;
 }
@@ -182,7 +182,7 @@ body {
 }
 
 .emoji--wow:after {
-  content: "Wow";
+  content: "Normal";
 }
 .emoji--wow .emoji__face {
   -webkit-animation: wow-face 3s linear infinite;
