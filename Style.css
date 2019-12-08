@@ -244,21 +244,21 @@ body {
 }
 
 .emoji--sad:after {
-  content: "Sad";
+  content: "Normal";
 }
 .emoji--sad .emoji__face {
   -webkit-animation: sad-face 2s ease-in infinite;
   animation: sad-face 2s ease-in infinite;
 }
-.emoji--sad .emoji__eyebrows {
+/*.emoji--sad .emoji__eyebrows {
   left: calc(50% - 3px);
   top: 35px;
   height: 6px;
   width: 6px;
   border-radius: 50%;
   background: transparent;
-  box-shadow: -40px 9px 0 0 #000000, -25px 0 0 0 #000000, 25px 0 0 0 #000000,
-    40px 9px 0 0 #000000;
+  box-shadow: -40px -8px 0 0 #000000, -25px -17px 0 0 #000000, 25px -17px 0 0 #000000,
+  40px -8px 0 0 #000000;
 }
 .emoji--sad .emoji__eyebrows:before,
 .emoji--sad .emoji__eyebrows:after {
@@ -270,9 +270,9 @@ body {
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
-  top: 2px;
+  top: -15px;
   left: calc(50% - 15px);
-}
+}*/
 .emoji--sad .emoji__eyebrows:before {
   margin-left: -30px;
   -webkit-transform: rotate(-30deg);
@@ -287,45 +287,21 @@ body {
   width: 14px;
   height: 16px;
   left: calc(50% - 7px);
-  top: 50px;
+  top: 30px;
   border-radius: 50%;
   background: transparent;
   box-shadow: 25px 0 0 0 #000000, -25px 0 0 0 #000000;
 }
-.emoji--sad .emoji__eyes:after {
-  background: #548dff;
-  width: 12px;
-  height: 12px;
-  margin-left: 6px;
-  border-radius: 0 100% 40% 50% / 0 50% 40% 100%;
-  -webkit-transform-origin: 0% 0%;
-  transform-origin: 0% 0%;
-  -webkit-animation: tear-drop 2s ease-in infinite;
-  animation: tear-drop 2s ease-in infinite;
-}
 .emoji--sad .emoji__mouth {
-  width: 60px;
-  height: 80px;
-  left: calc(50% - 30px);
-  top: 80px;
+  width: 50px;
+  left: calc(50% - 25px);
+  top: 60px;
   box-sizing: border-box;
-  border: 6px solid #000000;
+  border: 3px solid #000000;
   border-radius: 50%;
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-  border-right-color: transparent;
   background: transparent;
   -webkit-animation: sad-mouth 2s ease-in infinite;
   animation: sad-mouth 2s ease-in infinite;
-}
-.emoji--sad .emoji__mouth:after {
-  width: 6px;
-  height: 6px;
-  background: transparent;
-  border-radius: 50%;
-  top: 4px;
-  left: calc(50% - 3px);
-  box-shadow: -18px 0 0 0 #000000, 18px 0 0 0 #000000;
 }
 
 .emoji--angry {
@@ -683,14 +659,14 @@ body {
   35% {
     -webkit-transform: scale(0.85);
     transform: scale(0.85);
-    top: 70px;
+    top: 60px;
   }
   55%,
   100%,
   0% {
     -webkit-transform: scale(1);
     transform: scale(1);
-    top: 80px;
+    top: 60px;
   }
 }
 @-webkit-keyframes tear-drop {
