@@ -181,8 +181,14 @@ body {
     -35px -2px 30px 10px #d5234c, 35px -2px 30px 10px #d5234c;
 }
 
+.emoji--wow {
+  background: linear-gradient(#d5234c -10%, #ffda6a);
+  background-size: 100%;
+  -webkit-animation: angry-color 2s ease-in infinite;
+  animation: angry-color 2s ease-in infinite;
+}
 .emoji--wow:after {
-  content: "Normal";
+  content: "shout";
 }
 .emoji--wow .emoji__face {
   -webkit-animation: wow-face 3s linear infinite;
@@ -190,27 +196,26 @@ body {
 }
 .emoji--wow .emoji__eyebrows {
   left: calc(50% - 3px);
+  top: 37px;
   height: 6px;
   width: 6px;
   border-radius: 50%;
   background: transparent;
-  box-shadow: -18px 0 0 0 #000000, -33px 0 0 0 #000000, 18px 0 0 0 #000000,
-    33px 0 0 0 #000000;
-  -webkit-animation: wow-brow 3s linear infinite;
-  animation: wow-brow 3s linear infinite;
+  box-shadow: -43px 9px 0 0 #000000, -5px 9px 0 0 #000000, 7px 9px 0 0 #000000, 44px 9px 0 0 #000000
 }
+
 .emoji--wow .emoji__eyebrows:before,
 .emoji--wow .emoji__eyebrows:after {
-  width: 24px;
-  height: 20px;
+  width: 50px;
+  height: 18px;
   border: 6px solid #000000;
   box-sizing: border-box;
   border-radius: 50%;
-  border-bottom-color: transparent;
+  border-top-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
-  top: -3px;
-  left: calc(50% - 12px);
+  top: 0;
+  left: calc(50% - 25px);
 }
 .emoji--wow .emoji__eyebrows:before {
   margin-left: -25px;
@@ -220,9 +225,9 @@ body {
 }
 .emoji--wow .emoji__eyes {
   width: 16px;
-  height: 24px;
+  height: 16px;
   left: calc(50% - 8px);
-  top: 35px;
+  top: 49px;
   border-radius: 50%;
   background: transparent;
   box-shadow: 25px 0 0 0 #000000, -25px 0 0 0 #000000;
