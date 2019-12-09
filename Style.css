@@ -9,6 +9,7 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  background: #FFF7F7;
 }
 h1 {
   font-family: 'Poppins', sans-serif;
