@@ -10,6 +10,14 @@ body {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  margin: 0 0 5% 0;
+  color: #1F1B1B;
+}
 
 .emoji {
   width: 120px;
@@ -201,7 +209,8 @@ body {
   width: 6px;
   border-radius: 50%;
   background: transparent;
-  box-shadow: -43px 9px 0 0 #000000, -5px 9px 0 0 #000000, 7px 9px 0 0 #000000, 44px 9px 0 0 #000000
+  box-shadow: -43px 9px 0 0 #000000, -5px 9px 0 0 #000000, 7px 9px 0 0 #000000,
+    44px 9px 0 0 #000000;
 }
 
 .emoji--wow .emoji__eyebrows:before,
